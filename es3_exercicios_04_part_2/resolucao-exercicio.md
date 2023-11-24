@@ -308,6 +308,7 @@ public class Quadrado implements Forma {
     }
 }
 ~~~
+Solução com base no link a seguir: https://robsoncastilho.com.br/2013/03/21/principios-solid-principio-de-substituicao-de-liskov-lsp/
 
 **5. As classes Postagem, Reacao e Comentario possuem uma herança apenas para aproveitar alguns atributos e reescrever o método exibir().**
 
@@ -386,7 +387,7 @@ public class Comentario extends Postagem {
 **d. Todos implementem a interface abaixo:**
 
 <details>
-<summary>🔽 Clique aqui para expandir 🔽</summary>
+<summary>🔽 Clique aqui para exibir o código 🔽</summary>
 
 ~~~Java
 public interface Publicavel {
