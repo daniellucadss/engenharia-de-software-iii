@@ -1,7 +1,7 @@
 # Princípio de Substituição de Liskov
-1. **Em um sistema bancário temos as seguintes classes:**
+**1. Em um sistema bancário temos as seguintes classes:**
 <details>
-<summary>🔽 Clique aqui para expandir 🔽</summary>
+<summary>🔽 Clique aqui para exibir o código 🔽</summary>
 
 ~~~Java
 public class ContaBancaria {
@@ -71,10 +71,10 @@ public class ContaPoupanca implements Conta {
 }
 ~~~
 
-2. **Proponha uma solução que evite o uso da herança no código abaixo:**
+**2. Proponha uma solução que evite o uso da herança no código abaixo:**
 
 <details>
-<summary>🔽 Clique aqui para expandir 🔽</summary>
+<summary>🔽 Clique aqui para exibir o código 🔽</summary>
 
 ~~~Java
 public class Conta {
@@ -117,7 +117,7 @@ public class ContaCliente extends Conta {
 ~~~
 </details>
 
-- ContaCliente não é um tipo de Conta. Dessa forma podemos usar uma composição como possível solução:
+- ContaCliente não é um tipo de Conta. Dessa forma podemos usar uma composição como uma possível solução:
 
 ~~~Java
 public class Conta {
@@ -164,10 +164,10 @@ public class Cliente {
 }
 ~~~
 
-3. **Aplique o princípio LSP à implementação abaixo de forma que persistência seja um atributo da segunda classe. Crie um exemplo real com o resultado da refatoração.**
+**3. Aplique o princípio LSP à implementação abaixo de forma que persistência seja um atributo da segunda classe. Crie um exemplo real com o resultado da refatoração.**
 
 <details>
-<summary>🔽 Clique aqui para expandir 🔽</summary>
+<summary>🔽 Clique aqui para exibir o código 🔽</summary>
 
 ~~~Java
 import java.io.*;
@@ -236,7 +236,7 @@ public class Main {
 }
 ~~~
 
-4. **Entenda o problema da herança entre patos e suas capacidades presentes no exemplo do link:**
+**4. Entenda o problema da herança entre patos e suas capacidades presentes no exemplo do link:**
 
 https://www.quora.com/What-are-some-Java-examples-for-the-OOP-principle-of-favoring-object-composition-over-inheritance
 
@@ -309,10 +309,10 @@ public class Quadrado implements Forma {
 }
 ~~~
 
-5. **As classes Postagem, Reacao e Comentario possuem uma herança apenas para aproveitar alguns atributos e reescrever o método exibir().**
+**5. As classes Postagem, Reacao e Comentario possuem uma herança apenas para aproveitar alguns atributos e reescrever o método exibir().**
 
 <details>
-<summary>🔽 Clique aqui para expandir 🔽</summary>
+<summary>🔽 Clique aqui para exibir o código 🔽</summary>
 
 ~~~Java
 public class Perfil {
