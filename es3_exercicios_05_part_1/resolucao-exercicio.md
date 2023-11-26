@@ -76,3 +76,10 @@ https://pt.stackoverflow.com/questions/101692/como-funciona-o-padr%C3%A3o-reposi
 SOLID, fatalmente o DIP já estaria implementado?
 
 *Sim, pois quando princípios como o OCP (que promove a extensibilidade das classes sem alterar o código existente) e o LSP (que permite a substituição de classes base por suas derivadas) são aplicados, as classes tendem a depender mais de abstrações, como interfaces, do que de implementações concretas.*
+
+### Referências:
+- https://medium.com/contexto-delimitado/o-princ%C3%ADpio-da-invers%C3%A3o-de-depend%C3%AAncia-d52987634fa9
+
+- https://medium.com/contexto-delimitado/o-princ%C3%ADpio-da-segrega%C3%A7%C3%A3o-de-interfaces-2b673374406e
+
+- https://pt.stackoverflow.com/questions/101692/como-funciona-o-padr%C3%A3o-repository
